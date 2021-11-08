@@ -1,6 +1,7 @@
 package com.example.registro_app;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
@@ -10,13 +11,31 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class LaunchQuizlight extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
        super.onCreate(savedInstanceState);
        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
        setContentView(R.layout.launch_quizlight);
+
+
+       //Animacion background
+
+
+    ConstraintLayout constraintLayout = findViewById(R.id.mainLayout);
+
+    AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
+
+    animationDrawable.setEnterFadeDuration(2500);
+
+    animationDrawable.setExitFadeDuration(5000);
+
+    animationDrawable.start();
+
+
 
 
        //Animaciones
