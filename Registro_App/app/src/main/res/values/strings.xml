@@ -12,7 +12,7 @@
     <string name="e_mail">Email</string>
     <string name="tag_login">Login</string>
     <string name="tag_register">Register</string>
-        <string name="swipe_right_for_login">Click for Login</string>
+    <string name="swipe_right_for_login">Click for Login</string>
     <string name="register">Quizlight</string>
     <string name="re_type_password">Re-type Password</string>
     <string name="your_name">Full Name</string>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/bottom_home"/>
+
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/bottom_options"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/ranking"
+        android:title="Ranking"
+        android:icon="@drawable/bottom_ranking"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        android:icon="@drawable/bottom_exit"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>

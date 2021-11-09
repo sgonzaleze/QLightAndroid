@@ -20,6 +20,9 @@
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme.NoActionBar.NoActionBar"></activity>
 
+        <activity android:name=".MainMenuActivity"
+            android:label="MainMenuActivity"
+            ></activity>
 
         <activity android:name=".LaunchQuizlight">
             <intent-filter>
