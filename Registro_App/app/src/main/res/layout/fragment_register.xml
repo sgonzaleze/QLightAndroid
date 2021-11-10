@@ -16,7 +16,7 @@
         android:id="@+id/tv_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/register"
+        android:text="@string/title_register"
         android:textAlignment="center"
         android:textSize="50sp"
         android:layout_marginStart="25dp"
@@ -35,7 +35,7 @@
         android:layout_marginBottom="50dp"/>
 
     <EditText
-        android:id="@+id/et_name"
+        android:id="@+id/register_name"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/your_name"
@@ -49,7 +49,7 @@
         android:textSize="15sp" />
 
     <EditText
-        android:id="@+id/et_email"
+        android:id="@+id/register_email"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/e_mail"
@@ -63,7 +63,7 @@
         android:textSize="15sp" />
 
     <EditText
-        android:id="@+id/et_password"
+        android:id="@+id/register_password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/password"
@@ -77,7 +77,7 @@
         android:textSize="15sp" />
 
     <EditText
-        android:id="@+id/et_repassword"
+        android:id="@+id/register_repassword"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/re_type_password"
@@ -98,14 +98,16 @@
             android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/btn_submit"
-            android:fontFamily="@font/roboto_regular"
+            android:layout_centerInParent="true"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="30dp"
-            android:layout_centerInParent="true"
+            android:background="@drawable/btn_submit"
+            android:backgroundTint="#26a69a"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/register"
             android:textColor="@android:color/white"
-            android:text="@string/register"/>
+            app:backgroundTint="#26a69a" />
 
         <ImageButton
             android:id="@+id/log_btn"
