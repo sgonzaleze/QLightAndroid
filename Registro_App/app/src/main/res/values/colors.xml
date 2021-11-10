@@ -27,7 +27,7 @@
     <color name="background_end">#1EECFF</color>
 
 <!--AppBarMenu colors -->
-    <color name="appbar_color1">#3F51B5</color>
+    <color name="appbar_color1">#6297FF</color>
     <color name="appbar_color2">#303F9F</color>
     <color name="appbar_color3">#FF5252</color>
 </resources>

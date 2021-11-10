@@ -13,19 +13,22 @@
        <activity
 
            android:name=".LoginActivity"
+           android:screenOrientation="landscape"
         ></activity>
 
         <activity
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register"
-            android:theme="@style/AppTheme.NoActionBar.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"
+            android:screenOrientation="landscape"></activity>
 
         <activity android:name=".MainMenuActivity"
             android:label="MainMenuActivity"
             android:theme="@style/AppTheme.NoActionBar.NoActionBar"
-            ></activity>
+            android:screenOrientation="landscape"></activity>
 
-        <activity android:name=".LaunchQuizlight">
+        <activity android:name=".LaunchQuizlight"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

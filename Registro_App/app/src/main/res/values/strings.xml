@@ -1,10 +1,6 @@
 <resources>
     <string name="app_name">Quizlight</string>
-
-
-
     <!-- Strings del Login y Registro -->
-
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="swipe_left_for_register">Click for Register</string>
     <string name="login">Login</string>
@@ -18,14 +14,10 @@
     <string name="your_name">Full Name</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_register">Quizlight</string>
-
-
-
-
     <!--String launch-->
-
     <string name="launch_title">Quizlight</string>
-
-
+    <!-- MainScreen -->
+    <string name="user_name">User:</string>
+    <string name="points">Points:</string>
 
 </resources>
